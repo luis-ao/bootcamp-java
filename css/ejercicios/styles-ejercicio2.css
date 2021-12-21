@@ -1,0 +1,35 @@
+body {
+    background-color: #c6d9ee; 
+    font-family: Arial;}
+
+/* ENCABEZADOS */
+h1 {
+    text-align:end;
+    font-size: 42px;}
+.red {
+    font-family: Segoe UI;
+    color: red;}
+.ltrma {font-size:32px}
+
+/* PARRAFOS */
+p {
+    text-indent: 30px;
+    font-size: 14px;
+    text-align: justify;}
+.chocolate {
+    color: #d2691e; 
+    font-weight: bold;}
+.naranja {color: #ff9553;}
+.verde {
+    color: #008000; 
+    font-style: italic; 
+    background-color: white;}
+
+/* AUTOR */
+.autor {
+    font-style: italic; 
+    text-align: center; 
+    font-size: 11px;}
+.finalcolor {color: #ff9553}
+
+

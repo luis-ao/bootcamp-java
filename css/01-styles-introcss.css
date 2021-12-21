@@ -1,0 +1,19 @@
+.encabezado {font-size: 80px;
+color:white; background-color: black; text-align: center;
+text-transform:  uppercase;
+}
+
+body { background-color: rgb(221, 221, 221);}
+
+.texto {color: white; background-color: black;}
+
+p {color: red; background-color: yellow;}
+
+/* el dominante va ser esta línea de código por ser los últimos */
+p {color: white; background-color: dimgray;} 
+
+/* para trabajar con id´s usamos "#" */
+#texto2 {
+    color: blue; background-color: purple;
+    font-size: 24px;
+    font-style: italic;} 
