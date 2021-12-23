@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="assets/css/tablas.css" />
+    <meta charset="UTF-8">
+    <title>Tablas</title>
+</head>
+<body>
+
+<h1>Tablas</h1>
+
+<!-- colspan se extiendo por colummnas -->
+<!-- rowspan se extienda por filas -->
+
+    <table>
+        <thead>
+            <tr> <!--  crea una fila -->
+                <th>Cabecera</th> <!-- le da formato negrita y al centro -->
+                <th colspan="2">Cabecera 2</th>        
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>A</td>
+                <td>B</td>
+                <td rowspan="3">C</td>
+            </tr>
+            <tr>
+                <td >Celda 1</td>
+                <td>Celda 2</td>
+                <td>Celda 3</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Fin</td> <!-- le alinea a la izquierda -->
+                <td>Fin</td>
+                <td>Fin</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

@@ -1,0 +1,12 @@
+table, tr, th, td {
+    background-color: crimson;
+    border: solid black 1px;
+}
+
+th {
+    background-color: violet;
+}
+
+td {
+    background-color: blue;
+}

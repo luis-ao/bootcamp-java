@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="ejercicio-formulario.css">
+    <title>Ejercicio Formulario</title>
+</head>
+<body>
+    <form class="formulario">
+        <p>Datos del comprador</p>
+
+        <div class="nombre">
+            <label for="nombre">
+                Nombre
+            </label>
+            <input class="rojo"
+            id="nombre"
+            type="text"
+            name="nombre" 
+            placeholder="Escribe tu nombre completo" 
+            required />
+        </div>
+
+        <div class="corre">
+            <label for="correo">Email</label>
+            <input class="rojo" id="correo" name="correo"  type="email" placeholder="ejemplo@um.es" />
+        </div>
+
+        <div class="telefono">
+            <label for="telefono">
+               Teléfono 
+            </label>
+            <input class="rojo"
+            id="telefo"
+            type="text"
+            name="telefono" 
+            placeholder="Ej. +34668899999" 
+            required />
+        </div>
+
+        <div class="pais">
+            <label for="pais">
+               País 
+            </label>
+            <input class="rojo"
+            id="pais"
+            type="text"
+            name="pais" 
+            required />
+        </div>
+        
+        <p>Datos de tarjeta de crédito o débito</p>
+
+        <div class="numero">
+            <label for="numero">
+                Nombre
+            </label>
+            <input class="rojo"
+            id="numero"
+            type="number"
+            name="numero" 
+            placeholder="Ej. 5555-4444-3333-2222" 
+            required />
+        </div>
+
+        <div class="nombreentarjeta">
+            <label for="nombre">
+                Número
+            </label>
+            <input class="rojo"
+            id="nombreentarjeta"
+            type="text"
+            name="nombreentarjeta" 
+            placeholder="Nombre que figura en la tarjeta" 
+            required />
+        </div>
+        
+        <p>-----------------------------</p>
+
+        <div class="comprar">
+            <input type="button" value="Confirmar pedido" /> 
+        </div>
+        </form>
+
+    </form>
+    
+</body>
+</html>

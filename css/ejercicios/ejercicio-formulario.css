@@ -1,0 +1,15 @@
+
+.formulario {
+    background-color: green;
+    border: 10px solid #b0c4de;
+    border-radius: 4px;
+    padding: 20px;
+    width: 300px;
+    color: white;
+}
+
+.rojo {
+    border: 2px solid red;
+    width: 160px;
+    margin: 2px;
+}

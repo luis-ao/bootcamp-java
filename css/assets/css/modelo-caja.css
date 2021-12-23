@@ -1,0 +1,37 @@
+body {
+background-image: url(../img/pexels-alberlan-barros-7311920.jpg);
+    background-size: cover; /* hace referencia al tamaño de la imagen*/
+    /* background-repeat: no-repeat; es para que no se repita la imagen */
+}
+
+.title {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.subtitle {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.caja {
+    font-size: 30px;
+    color: white;
+    width: 300px; /* ANCHO */
+    height: 300px; /* ALTO */
+    margin: 20px;  /* ESPACIO entre cajas */
+    padding-left: 20px;
+    padding-top: 20px; /* es el margen interno */
+    border-radius: 15px; /* la curvatura del borde */
+}
+.rojo {
+    /* background-color: red; */
+    border-top: 5px dotted red ;
+}
+.verde {
+    /* background-color: green; */
+    border: 5px solid green;
+}
+.azul {
+    background-color: blue;
+    border: 5px solid blue;
+    border-radius: 50%;
+}

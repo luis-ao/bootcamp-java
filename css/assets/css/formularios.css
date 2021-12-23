@@ -1,0 +1,11 @@
+.formulario {
+    border: 1px solid blue;
+}
+
+.campo_nombre {
+    background-color: blue;
+    border: 2px solid black;
+}
+#password{
+    border: 2px dashed blue;
+}
