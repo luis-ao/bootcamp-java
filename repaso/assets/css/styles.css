@@ -1,0 +1,13 @@
+table, tr, th, td {
+    border: 1px solid black;
+}
+table {
+    width: 40px;
+}
+
+.enlace {
+    color: blanchedalmond;
+    display: inline-block;
+    background-color: black;
+    width: 40px;
+}
