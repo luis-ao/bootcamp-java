@@ -1,0 +1,35 @@
+body {
+    background-color: #D3D3D3;
+}
+.titulo-principal{
+    text-align: center;
+}
+
+.contenido-principal {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contenido-principal .contenido{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contenido-principal .encabezados{
+    background-color: gray;
+    color: white;
+    padding-left: 10px 5px;
+}
+
+.contenido-principal .contenido-imagen {
+    float: left;
+}
+
+.contenido-principal .contenido-texto {
+    margin-left: 50px;
+}
+
+.contenido-principal .contenido-texto{
+    text-align: justify;
+    text-indent: 20px;
+}

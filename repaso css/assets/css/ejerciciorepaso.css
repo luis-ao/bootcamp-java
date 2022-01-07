@@ -19,6 +19,7 @@ h2 {
 
 p {
     padding-left: 15%;
+    padding-right: 4%;
     text-align: justify;
     font-size: 12px;
     text-indent: 20px;
@@ -41,9 +42,9 @@ img {
 }
 
 .html {
-margin-top: -1%;
+    margin-top: -1%;
 }
 
 .css {
-    margin-top: -7%;
+    margin-top: -8.5%;
 }

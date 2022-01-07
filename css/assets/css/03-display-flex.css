@@ -1,0 +1,35 @@
+body{
+    background-color: lightgray;
+    /* padding: 0;
+    margin: 0; */
+}
+
+.contenedor{
+    display: flex;
+    height: 600px;
+    border: 3px solid purple;
+    justify-content: space-evenly; /* nos dice de que manera se organizan horizontalmente*/
+    align-items: flex-start; /*  Acomoda todos los elementos */
+    flex-wrap: wrap;/* Acomoda las cajas abajo en lugar de ajustarlas todas y modificar su anchura */
+}
+
+.caja {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.rojo {
+    background-color: red;
+}
+.verde {
+    background-color: green;
+    /* align-self: center;  Este sólo acomoda a un sólo elemento */
+}
+.azul {
+    background-color: blue;
+    /* align-self: flex-end; */
+}
+.amarillo {
+    background-color: yellow;
+}
