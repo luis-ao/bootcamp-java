@@ -6,15 +6,12 @@ o manipular los datos almacnados
 
  // manera 1/* 
 const arreglo1 =[];
-console.log(arreglo1);
 
 // manera 2
 const arreglo2 = Array.of(1, "hola", true);
-console.log(arreglo2);
 
 // manera 3
 const arreglo3 = new Array(3, true, "Adiós");
-console.log(arreglo3);
 
 // podemos colocar un arreglo dentro de otro arreglo
 const arreglo4 =[3, "Hi", true, [1, 2, 3]];
@@ -26,15 +23,15 @@ console.log(arreglo5);
 // Llamar a los datos guardados dentro de los arreglos
 const frutas = ["manzanas", "naranjas", "uvas",
 "sandías", [1, 2, 3, 4, ["1","2","3"]]];
-//Notación de corchetes, colocar el número donde se encuentra
+
 console.log(frutas[0]); //para llamar a la manzana
 console.log(frutas[2]); //para llamar a la sandía
 console.log(frutas[4][4][0]); //para llamar a 1
 
-// Métodos
-// length = longitud
+// MÉTODOS
+// length = longitud, sirve para que nos indique la cantidad de datos almacenados
 const letras = ["a", "b", "c", "d"];
-console.log(letras.length); //sirve para que nos indique la cantidad de datos almacenados
+console.log(letras.length);
 
 // push = añade un elemento al final de nuestro arreglo
 letras.push("E")
@@ -52,9 +49,9 @@ console.log(letras)
 letras.shift()
 console.log(letras)
 
-const frutas = ["manzanas", "naranjas", "uvas",
+const frutas2 = ["manzanas", "naranjas", "uvas",
 "sandías", [1, 2, 3, 4, ["1","2","3"]]];
-console.log(frutas);
+console.log(frutas2);
 frutas[4][4].push("D") // colocar después de ["3"]
 
 /*
@@ -74,7 +71,7 @@ comidas.forEach(function(el){
     console.log(el);
 })
 
-/* forEach esta sumando "1" a da elemento, podemos guardarlo
+/* forEach esta sumando "1" a cada elemento, podemos guardarlo
 en una variable para poder llamarlo en consola */
 const numeros = [1, 2, 4, 8];
 numeros.forEach(function (el){

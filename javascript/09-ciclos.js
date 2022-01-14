@@ -1,5 +1,4 @@
-/*
-ciclos - bucles - loops
+/* Ciclos - bucles - loops
 
 while
 do while

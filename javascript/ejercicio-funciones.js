@@ -27,9 +27,9 @@ function descuento(valorcompra)
     return valorfinal;
 }
 
-
 let preciousuario = parseInt(prompt("Ingresa el precio"));
 let descuento1 = descuento(preciousuario);
+document.write("<h1>" + "El precio del producto es " + preciousuario + "</h1>");
 document.write("<h1>" + "El precio final es " + descuento1 + "</h1>");
 
 
