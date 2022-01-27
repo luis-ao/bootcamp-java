@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='icon' href="assets/media/icons/favicon.webp"/>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rock+3D&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rock+3D&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rock+3D&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/styles/parallax.css">
+    <title>Parrallax</title>
+</head>
+<body>
+
+<!-- PRELOADER -->
+    <div id="loader">
+        <img src="assets/media/img/loading.gif" alt="loading" width="200px"/>
+    </div>
+
+<!-- PARALLAX -->
+<section id="parallax">
+    <!-- <h1 id="slogan">
+        ¡JUEGA SIN LIMÍTES!
+    </h1>
+    <a href="#" id="btn">PRESS START</a> -->
+
+    <img src="assets/media/parallax/pxl-space.webp" alt="fondo de galaxia" id="space-pxl">
+    <img src="assets/media/parallax/nave-izq.webp" alt="nave pixel" id="nave-1">
+    <img src="assets/media/parallax/nave-der.webp" alt="nave pixel" id="nave-2">
+    <img src="assets/media/parallax/ast-lento.webp" alt="astroide pixel" id="ast-lento">
+    <img src="assets/media/parallax/ast-medio.webp" alt="astroide pixel" id="ast-medio">
+    <img src="assets/media/parallax/ast-rapido.webp" alt="astroide pixel" id="ast-rapido">
+
+</section>
+    
+   
+    
+<!-- SCRIPT TEMPLATE -->
+<script type="text/javascript">
+    var loader = document.getElementById("loader");
+    window.addEventListener("load",function(){
+        loader.style.height="100px";
+        loader.style.width="100px";
+        loader.style.borderRadius="50%";
+        loader.style.visibility="hidden"
+    });
+</script>
+
+<script src="assets/script/parallax.js"></script>
+
+</body>
+</html>

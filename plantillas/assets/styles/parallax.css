@@ -1,7 +1,8 @@
 *{
     margin: 0px;
     padding: 0px;
-    background-color: black;
+    box-sizing: border-box;
+    background-color: rgb(20, 20, 20);
 }
 
 /* TEMPORAL */
@@ -10,6 +11,8 @@
     padding: 200px;
     color: white;
     text-align: justify;
+    font-family: Orbitron;
+    font-weight: 900;
 }
 
 
@@ -38,5 +41,6 @@
 ::-webkit-scrollbar-thumb{
     background: linear-gradient(#0C1E7F, #612897);
 } 
+
 
 
