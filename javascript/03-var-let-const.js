@@ -1,11 +1,11 @@
 /* 
-var es una variable global y puede 
-ser llamada desde cualquier parte del código
+var es una variable global y puede ser llamada desde cualquier parte del código.
 
-let hace referencia a una variable local y sólo 
-se puede acceder a ella desde el bloque en el que se encuentre, 
-es decir afuera de { } es como si no existiera
+let hace referencia a una variable local y sólo se puede acceder a ella desde el bloque en el que se encuentre, es decir afuera de { } es como si no existiera.
+
+const al igual que las declaraciones let, solo se puede acceder a ellas dentro del bloque en el que se declararon y NO SE PUEDE CAMBIAR SUS VALORES.
 */
+
 
 var numero = 40;
 console.log(numero) // 40
@@ -28,12 +28,6 @@ if(true) {
 
 console.log(texto); // Botcamp Java
 console.log(numerofavorito); // Marca error por que vive solo dentro de las llaves
-
-/* 
-const tiene la misma función que let 
-se utiliza para declarar constantes
-NO PUEDE CAMBIAR SUS VALORES
-*/
 
 const gravedad = 9.8;
 // gravedad = 5; marcaría error en consola //

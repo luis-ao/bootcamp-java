@@ -24,11 +24,12 @@ function descuento(valorcompra)
     {
         valorfinal = valorcompra * 0.7;
     }
-    return valorfinal;
+    return valorfinal; // return es necesario para poder usar la variable lef fuera del bloque de código
 }
 
 let preciousuario = parseInt(prompt("Ingresa el precio"));
 let descuento1 = descuento(preciousuario);
+
 document.write("<h1>" + "El precio del producto es " + preciousuario + "</h1>");
 document.write("<h1>" + "El precio final es " + descuento1 + "</h1>");
 

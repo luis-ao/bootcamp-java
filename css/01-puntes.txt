@@ -1,0 +1,31 @@
+
+ANIDACIÓN
+Cuando anidamos los navegadores leen la hoja de estilos de derecha a izquierda o ultimo a primero por ello es recomendado no anidar más de 3 etiquetas
+
+div p .clase{}
+
+
+
+NOTACIÓN CORTA
+padding: Top, Right, Bottom, Left;
+
+padding: 10px, 20px, 10px; // Left va a tomar el valor de Right (20px)
+
+padding: Y, x;
+y = vertical (top, bottom)
+x = horizontal (right, left)
+
+padding: 10px; // aplica a todos los lados de la caja
+
+----------------------------
+overflow: hidden; // para ocultar desbordamientos
+overflow: auto; // para agregar un scroll interno cuando tenga desbordamientos
+
+BACKGROUND IMAGEN
+background-position: // la posicion de la imagen
+background-repeat: // para que la imagen se repita o no
+background-size: // tamaño
+
+
+
+NOTA EXPERIMENTAR AGREGAR width: 100%; a hijo y padre para ver como escala el contenido 

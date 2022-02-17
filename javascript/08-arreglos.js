@@ -1,7 +1,5 @@
 /*
-Arreglos: Son una colección de elementos (cualquier tipo de datos)
-Tiene métodos o funciones que nos permite ordenar 
-o manipular los datos almacnados
+Arreglos: Son una colección de elementos (cualquier tipo de datos) Tiene métodos o funciones que nos permite ordenar o manipular los datos almacnados
 */
 
  // manera 1/* 
@@ -22,15 +20,17 @@ console.log(arreglo5);
 
 // Llamar a los datos guardados dentro de los arreglos
 const frutas = ["manzanas", "naranjas", "uvas",
-"sandías", [1, 2, 3, 4, ["1","2","3"]]];
+"sandías", [1, 2, 3, 4, ["5","6","7"]]];
 
 console.log(frutas[0]); //para llamar a la manzana
-console.log(frutas[2]); //para llamar a la sandía
-console.log(frutas[4][4][0]); //para llamar a 1
+console.log(frutas[4][0]); //para llamar a 1
+console.log(frutas[4][4][0]); //para llamar a 5
 
 // MÉTODOS
-// length = longitud, sirve para que nos indique la cantidad de datos almacenados
+
 const letras = ["a", "b", "c", "d"];
+
+// length = longitud, sirve para que nos indique la cantidad de datos almacenados
 console.log(letras.length);
 
 // push = añade un elemento al final de nuestro arreglo
@@ -55,25 +55,25 @@ console.log(frutas2);
 frutas[4][4].push("D") // colocar después de ["3"]
 
 /*
-forEach - nos puede servir para realizar un acción
-por cada elemento de nuestro arreglo
-*/
+forEach - nos puede servir para realizar un acción por cada elemento de nuestro arreglo
 
-// Por ejempo aqui llamamos a los elemento en cada línea
+Por ejempo aqui llamamos a los elemento en cada línea */
+
 const comidas = ["Pozole", "Quesadillas", "Tacos"];
 
-console.log(comidas[0])
+/* console.log(comidas[0])
 console.log(comidas[1])
 console.log(comidas[2])
+ */
 
 // Aca lo sintetiza
 comidas.forEach(function(el){
     console.log(el);
 })
 
-/* forEach esta sumando "1" a cada elemento, podemos guardarlo
-en una variable para poder llamarlo en consola */
+/* forEach esta sumando +1 a cada elemento, podemos guardarlo en una variable para poder llamarlo en consola */
 const numeros = [1, 2, 4, 8];
+
 numeros.forEach(function (el){
     let suma = el + 1;
     console.log(suma)
