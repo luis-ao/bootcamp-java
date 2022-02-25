@@ -98,3 +98,16 @@ switch (edad3) {
         break;
 }
 console.log(resultado2)
+
+/* ------- */
+function realizarOp (op, a, b){
+    switch (op){
+        case "sumar":
+        return parseInt(a) + parseInt(b);
+        kaksjas; /* Esto lo ignora ya que el return cierra el case */
+        case "multiplicar":
+        return a * b;
+    }
+}
+
+console.log(realizarOp("sumar", 4, 3));
