@@ -32,9 +32,9 @@ function cocinar(ingrediente1, ingrediente2, ...masingredientes){
     console.log("ingrediente1: ", ingrediente1); // pollo
     console.log("ingrediente2: ", ingrediente2);// tomate
     console.log("masingredientes: ", masingredientes); // array [arroz, frijoles, pescado]
-
-    cocinar("pollo", "tomate", "arros", "frijoles", "pescado"); // Se tiene que declarar dentro de la función
 }
+cocinar("pollo", "tomate", "arros", "frijoles", "pescado");
+
 
 // Parametro SPREAD
 
@@ -46,8 +46,16 @@ function cocinar2(ingrediente4, ingrediente5, ingredientes6, ...otros){
 }
 
     var ingredientesbase = ["sal", "pimienta"];
-    cocinar2(...ingredientesbase, "limon", "chile", "cebolla") // Se puede declarar fuera de la función
+    cocinar2(...ingredientesbase, "limon", "chile", "cebolla")
+// En consola ya que pusimo "..." va a mostrar lo siguiente
+/* ingredientes4 = sal
+ingredientes5 = pimienta
+ingredientes6 = limón
+otroe = array [chil, cebolla] */
 
+
+
+/* ------------------------------------------------ */    
 /* funciones anónimas
 lo podemos usar para callbacks o cuando queremos aislar de algun otro elemento */
 
@@ -71,5 +79,30 @@ function calcular (datoA, datoB, sumarCB, restaCB){
 calcular(2, 3, function(resultado){
     console.log("suma", resultado);
 }, function(resultado){
-    console.log("resta ", resultado)
+    console.log("resta ", resultado);
 });
+
+/* Funciones Arrow 
+
+Es como almacenar una función en una variable; despúes nombramos el parametro que vamos a pasar (nombre) seguido de un ""=>"" y es aquí donde vamos a realizar la función, en este ejemplo concatenar "Hola " + nombre;
+*/
+
+var saludar1 = nombre => "Hola " + nombre;
+console.log(saludar1("Susana")); // Imprime "Hola Susana"
+
+var sumar2 = cantidad => cantidad+10;
+console.log(sumar2(10)); // imprime 20
+
+var suma3 = (dato1, dato2) => dato1 + dato2;
+console.log(suma3(10, 15));// imprime 25
+
+var suma4 = (dato1, dato2) => {
+    var dato3 = 5;
+    return dato1 + dato2 + dato3;
+}
+console.log(suma4(10, 15)); // imprime 30
+
+var validar = () => {
+    return "Validación correcta "
+}
+console.log(validar()); // Imrime el return si no pasamos parametro;

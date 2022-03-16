@@ -4,28 +4,79 @@ Cuando anidamos los navegadores leen la hoja de estilos de derecha a izquierda o
 
 div p .clase{}
 
-
-
+----------------------------
 NOTACIÓN CORTA
 padding: Top, Right, Bottom, Left;
 
 padding: 10px, 20px, 10px; // Left va a tomar el valor de Right (20px)
 
-padding: Y, x;
+padding: y, x;
 y = vertical (top, bottom)
 x = horizontal (right, left)
 
 padding: 10px; // aplica a todos los lados de la caja
 
+
+
 ----------------------------
+POSITION
+(Static, es el valor que tiene por defecto)
+
+*Relative*
+Al mover la caja su antiguo espacio se respeta (Las demás cajas no van ocupar su lugar) además sus puntos de referencia para moverla son los mismos del punto donde empezo; top y left son las propiedads más importantes para mover la caja ya que si estas estan declaradas, bottom y right no funcionan.
+
+*Absolute*
+Las demás cajas no van a repetar su antiguo lugar y lo van a ocupar; cuando no definimos top, left, bottom o right se posiciona respecto a la caja contenedora y cuando si declaramos sus valores se va posicionar respecto al viewport. Si no le damos un ancho y alto el tamaño de la caja se ajusta al tamaño del contenido.
+
+*Fixed*
+Es igual que Absolute pero queda fijado en un lugar.
+
+*Sticky*
+Es una mezcla entre Fixed y Relative (Se comportar como un Fixed a partir de la parte donde lo ponemos).
+
+
+
+-----------------------------
+-- DISPLAY
+
+Block - Bloque (Ocupan todo la fila)
+Inline - En línea (Sólo el tamaño del contenido)
+Inline-Block - Permite definir el tamaño y colocar un elemento a lado de otro.
+
+Flex
+Grid
+
+Inline-Flex
+Inline-Grid
+
+-- OVERFLOW
+overflow-x // overflow-y
 overflow: hidden; // para ocultar desbordamientos
 overflow: auto; // para agregar un scroll interno cuando tenga desbordamientos
 
-BACKGROUND IMAGEN
-background-position: // la posicion de la imagen
-background-repeat: // para que la imagen se repita o no
-background-size: // tamaño
+
+
+----------------------------
+-- OBJECT-FIT
+
+Contain - valor por defecto y hace que la imagen se ajuste al contenido pero deja espacios en blancos del contenedor si la imagen no es del mismo tamaño que el padre.
+
+Cover - Ajusta la imagen al 100% del contenedor y recorta los extremos
+
+None - Usa las propiedad por defecto de las imagenes no le importa si se queda fuera o no se ajusta
+
+Scale-Down - pregunta qué es más chico? compara contenedor y no y deja el más chico.
+
+-- OBJECT-POSITION
+object-position; left; // se va a mostrar desde el lado que decidimos (top, right, etc.)
+object-position; 1em; // se recorre 1 em a la derecha
+object-position; -1em; // se recorre 1 em a la Izquierda
+
+
+-----------------------------
 
 
 
-NOTA EXPERIMENTAR AGREGAR width: 100%; a hijo y padre para ver como escala el contenido 
+
+
+

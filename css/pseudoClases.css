@@ -1,0 +1,41 @@
+*{
+    color: white;
+}
+.caja1{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    /* transition: all 1s; // Todo durara un segundo */
+    transition: background-color 1s, height 1s, width 1s, border 2.3s;
+    cursor: pointer;
+}
+.caja1:hover{
+    background-color: blue;
+    border: 3px red solid;
+    height: 300px;
+    width: 300px;
+}
+
+/* SOLO CUANDO DEJAMOS APRETADO */
+.caja2{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    transition: all .75s;
+    cursor: pointer;
+}
+.caja2:active{
+    background-color: blueviolet;
+}
+
+/*CUANDO ESTA EN FOCO O SELECCIONADO */
+input{
+    height: 20px;
+    width: 200px;
+    background-color: green;
+    transition: all .75s;
+}
+input:focus{
+    background-color: black;
+    padding: 4px;
+}

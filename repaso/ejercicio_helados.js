@@ -30,6 +30,7 @@ const $form = document.querySelector("#formDinero")
 $form.addEventListener("submit", handleSubmit)
 function handleSubmit(event) {
     event.preventDefault()
+    
     const form = new FormData(this)
     const danyDinero = form.get("dany")
     document.write("Dany " + filtroPrecios(danyDinero) + "</br>")
